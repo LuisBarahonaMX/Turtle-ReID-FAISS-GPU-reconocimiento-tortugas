@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Entornos virtuales
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Variables y secretos
+.env
+.env.*
+*.key
+
+# Dataset local
+dataset/
+datasets/
+data/raw/
+
+# Modelos y pesos grandes
+*.pth
+*.pt
+*.ckpt
+*.onnx
+
+# FAISS / embeddings generados
+*.index
+*.faiss
+embeddings/
+outputs/
+
+# Logs
+*.log
+
+# Sistema
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
